@@ -9,8 +9,44 @@
 Para instalar solo debe correr en consola:
 ```
 clone https://github.com/jiuly256/casasolar.git
+```
+o descargar directamente el proyecto en Download zip. Copiar el proyecto en tu carpeta www
+
+Comandos para inicializar el proyecto:
+```
+php init
+
+composer update
+```
+
+crear una base de datos en mysql, yo propongo que se llame igual que el sistema casasolar
+
+cambiar en el /common/congin/main-local
 
 ```
+<?php
+return [
+    'components' => [
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost:3308;dbname=casasolar',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+        ],
+    ],
+];
+
+```
+en mi caso el puerto es 3308 pero normalmente es 3306
+
+correr en la consola
+```
+php yii migrate
+```
+Si todo funciona con este link deberia correr: 
+
+http://localhost:81/casasolar/frontend/web
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
