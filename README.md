@@ -16,6 +16,16 @@ Comandos para inicializar el proyecto:
 ```
 php init
 
+
+```
+Escoges si lo quieres inicializar en desarrollo o en produccion
+ [0] Development
+ [1] Production
+ 
+Yo elijo 0 y luego No y No para que no sobreescriba 
+ 
+```
+
 composer update
 ```
 
