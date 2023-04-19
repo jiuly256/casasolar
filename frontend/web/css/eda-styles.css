@@ -1,0 +1,11 @@
+app-sidebar {
+    display: none;
+}
+
+.mini-sidebar-2 .page-wrapper {
+    margin-left: 0;
+}
+
+.right-side-toggle {
+	display: none;
+}
