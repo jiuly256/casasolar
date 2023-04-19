@@ -19,9 +19,9 @@ php init
 composer update
 ```
 
-crear una base de datos en mysql, yo propongo que se llame igual que el sistema casasolar
+crear una base de datos en mysql, yo propongo que se llame igual que el sistema <b>casasolar</b>
 
-cambiar en el /common/congin/main-local
+cambiar en el /common/config/main-local.php
 
 ```
 <?php
@@ -38,7 +38,7 @@ return [
 ];
 
 ```
-en mi caso el puerto es 3308 pero normalmente es 3306
+en mi caso el puerto es 3308 pero normalmente es 3306, y la base de datos deber el mismo nombre de la creada. <b>casasolar</b>
 
 correr en la consola
 ```
@@ -48,46 +48,9 @@ Si todo funciona con este link deberia correr:
 
 http://localhost:81/casasolar/frontend/web
 
+Mi puerto es el 81.
+
+
+
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Build Status](https://travis-ci.com/yiisoft/yii2-app-advanced.svg?branch=master)](https://travis-ci.com/yiisoft/yii2-app-advanced)
-
-DIRECTORY STRUCTURE
--------------------
-
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-```
