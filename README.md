@@ -50,7 +50,39 @@ http://localhost:81/casasolar/frontend/web
 
 Mi puerto es el 81.
 
+Otra forma de visualizar el proyecto
 
+en el archivo <b>httpd-vhosts</b> ubicado en C:\wamp\bin\apache\apache2.4.54.2\conf\extra
+pegar el siguiente codigo
+```
+#casasolar
+<VirtualHost *:81>
+        ServerName casasolar.frontend
+        DocumentRoot "C:/wamp/www/casasolar/frontend/web"
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+        <Directory "C:/wamp/www/casasolar/frontend/web/">
+            # use mod_rewrite for pretty URL support
+            RewriteEngine on
+            # If a directory or a file exists, use the request directly
+            RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteCond %{REQUEST_FILENAME} !-d
+            # Otherwise forward the request to index.php
+            RewriteRule . index.php
+
+            # use index.php as index file
+            DirectoryIndex index.php
+
+        </Directory>
+</VirtualHost>
+```
+
+Y en el <b>host</b> ubicado en C:\Windows\System32\drivers\etc
+pegar el siguiente codigo
+```
+127.0.0.1	casasolar.frontend
+```
+Reiniciar el servidor 
+
+link: http://casasolar.frontend:81
+
 
