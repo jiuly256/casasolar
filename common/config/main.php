@@ -3,6 +3,10 @@ return [
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
+        '@mdm/admin/messages'   => '@vendor/mdmsoft/yii2-admin/messages',
+        '@mdm/admin/assets'   => '@vendor/mdmsoft/yii2-admin/assets',
+        '@mdm/admin/mail'   => '@vendor/mdmsoft/yii2-admin/mail',
+
     ],
 
     'sourceLanguage'=>'en',
