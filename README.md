@@ -103,7 +103,7 @@ usuario: empresa1
 contraseña: empresa1
 <br><br> 
     
-<b>Solicitanes</b>
+<b>Solicitantes</b>
 <br>
 usuario: lfanza
 <br>
