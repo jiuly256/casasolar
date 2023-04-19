@@ -44,3 +44,5 @@ phpunit.phar
 
 #ignore uploads
 /frontend/web/uploads/*
+composer.lock
+composer.lock

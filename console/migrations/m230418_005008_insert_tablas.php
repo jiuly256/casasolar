@@ -252,7 +252,7 @@ INSERT INTO user VALUES
 (12, 'kdiaz', 'Karla', 'Diaz', 'oVPzXXp7nxmQQP6qrnUzA6EkhZWsIutu', '$2y$13\$Qdew9YoGwjK/VtgRtFfsmewrK4ypuKD3t1W7It8FzxX6F5ymYTjs.', NULL, 'kdiaz@gmail.com', 10, 1681838948, 1681838948, 'K4NYLVG31ZB6gm7Pl2-6HjsKbSFXGDDw_1681838948', '524163854', 3, 2, 1, NULL),
 (15, 'empresa1', 'Carlos', 'Martinez', 'oettItJ6HU6RtylIrC4EMkyD_soOO2jZ', '$2y$13\$QZ0TPADnpt2KuTgYX/qIwufom3ghDZ1.24bN55pVdcp5HV/TWet/G', NULL, 'cmartinez@gmail.com', 10, 1681840347, 1681852215, '5_uynGkSauu_ps1Ee3LvGw_NyPkdkqwN_1681840347', '253614789', 2, NULL, NULL, 1),
 (21, 'hfernandez', 'Hector', 'Hernandez', 'fri3bSLVA69txU-npNCBNCu5Q4QHOXG9', '$2y$13\$leK48Pn8QEhQpuGURADF/eRFECNVjA3/brSika0bG3a0xrNRSBZUW', NULL, 'hhernandez@gmail.com', 10, 1681843626, 1681843626, 'e2VqpJys4q4oPtatEP6kLnScSnMdrtqT_1681843626', '1515185', 3, 4, 1, NULL),
-(22, 'jhernandez', 'Julia', 'Hernandez', 'd-7D0vgMLN60-mtM-1D5Pi8mtblS8UC1', '$2y$13\$lv.aQ.PKGeRIcyQACNpqPeJgm8zoOTiw9v7HtRyAKuWakK5AnTMCK', NULL, 'jhernandez3@gmail.com', 10, 1681844789, 1681844789, 'yWvTtFNsoaBWqVz4EGjyPdOkGjjVk16U_1681844789', '2567851', 3, 1, 1, NULL);
+(22, 'jhernandez', 'Julia', 'Hernandez', 'WnvjKgqIg5w34Gkh4h1UEgR_gKgnrvFT', '$2y$13$7PXt8Dh7FZrlsTbYr0W7v.R1DqNtluIb8T3n/nPq7EvghtYm0lK/e', NULL, 'jhernandez3@gmail.com', 10, 1681844789, 1681844789, 'yWvTtFNsoaBWqVz4EGjyPdOkGjjVk16U_16818447', '2567851', 3, 1, 1, NULL);
 
     
         -- 
