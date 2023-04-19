@@ -8,7 +8,7 @@
 
 Para instalar solo debe correr en consola:
 ```
-clone https://github.com/jiuly256/casasolar.git
+git clone https://github.com/jiuly256/casasolar.git
 ```
 o descargar directamente el proyecto en Download zip. Copiar el proyecto en tu carpeta www
 
