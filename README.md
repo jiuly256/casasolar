@@ -85,4 +85,51 @@ Reiniciar el servidor
 
 link: http://casasolar.frontend:81
 
+<h2 align="center">Usuarios</h2>
+<br>   
+<p align="letf">
+
+<b>Administrador del sistema</b>
+<br> 
+usuario: admin
+<br> 
+contraseña: admin123
+<br><br>
+    
+<b>Empresa</b>
+<br>
+usuario: empresa1
+<br>
+contraseña: empresa1
+<br><br> 
+    
+<b>Solicitanes</b>
+<br>
+usuario: lfanza
+<br>
+contraseña: lfanza123
+ <br><br>   
+    
+usuario: pperez
+<br>
+contraseña: pperez123
+<br><br>
+    
+usuario: kdiaz
+<br>
+contraseña: kdiaz123
+<br><br>
+
+usuario: hfernandez
+<br>
+contraseña: hfernandez123
+<br><br>
+    
+usuario: jhernandez
+<br>
+contraseña: jhernandez123
+<br><br>
+
+</p>
+
 
